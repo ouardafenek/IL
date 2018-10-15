@@ -1,0 +1,38 @@
+
+
+UC02 : « Définir objectif ».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+
+Description: 
+	Le joueur veut construire un certain nombre d’unités ou avoir une certaine quantité de ressources.
+
+
+Préconditions :
+
+	 Lors de UC1, le joueur a choisit l’approche 1 (celle où c’est lui qui définit l’objectif et le système lui propose un BO lui permettant de l’atteindre) 
+
+	
+Séquencement nominal:
+
+	1- Le système propose à l’utilisateur une interface contenant tous les types d’unités disponibles. Cette interface contient également des champs pour que le joueur puisse choisir la quantité à obtenir de chaque type d’unité. 
+
+	2- Le joueur choisit pour chaque type d’unité la quantité à obtenir 
+
+	3- Le joueur valide ses choix 
+
+Enchaînements alternatifs:
+
+	A1: Le joueur a laissé certains champs vides:
+		4- Le système mets les champs en question à 0
+
+Enchaînements d’exception:
+
+	E1: Le joueur n’a rempli aucun champs: 
+		4- Le système indique qu’il faut remplir au moins un champs 
+	La séquence nominale reprend au point 2. 
+
+Post-conditions:
+	Le système a enregistré les choix du joueur.
+	

@@ -1,0 +1,16 @@
+UC06 : « Fournir Etat Actuel».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+	A chaque unité de temps, le système indique les ressources et les constructions du joueur.
+Préconditions :
+	Le BO doit être en exécution 
+Séquencement nominal:
+	1- le système affiche 
+Enchaînements alternatifs:
+	
+Enchaînements d’exception:
+	
+	
+Post-conditions:

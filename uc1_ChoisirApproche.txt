@@ -1,0 +1,23 @@
+
+
+UC01 : « Configurer Jeu ».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+	Le joueur doit pouvoir choisir quelle approche du jeu adopter
+	approche 1 : 
+		Définir un objectif et demander au système un BO qui le réalise
+	approche 2 :
+		Le système fixe un objectif pour le joueur. Le joueur propose alors un 
+		BO qui sera corrigé par le système. 
+Préconditions :
+	aucune 
+Séquencement nominal:
+	1- Le système propose à l’utilisateur une interface lui permettant de choisir entre l’approche 1 et 2. Cette interface contient également une description détaillée de ces deux approches. 
+	2- L’utilisateur clique sur le bouton correspondant à l’approche choisit. 
+Enchaînements alternatifs:
+	
+Post-conditions:
+	Le système a enregistré le choix du joueur.
+	

@@ -1,0 +1,24 @@
+
+
+UC03 : « Trouver BO Optimal ».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+	L’IA doit pouvoir produire un BO optimal permettant d’atteindre un objectif prédéfinit.
+Préconditions :
+	1- L’objectif à atteindre doit être connu (types et quantités d’unités 		voulues) 
+	2- 50 pièces d’or, une banque, un centre et 5 ouvriers dans les ressources initiales du joueur. 
+
+Séquencement nominal:
+	1- l’IA fait appel à l’algorithme permettant de résoudre le problème, en lui passant les paramètres nécessaire (ressources initiales et l’objectif à atteindre).
+	2- le système affiche le BO retourné par l’IA et le temps nécessaire à son exécution. 
+	  
+Enchaînements alternatifs:
+
+Enchaînements d’exception:
+	
+	
+Post-conditions:
+	
+	

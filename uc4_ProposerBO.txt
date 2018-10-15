@@ -1,0 +1,39 @@
+UC03 : « Proposer BO».
+Date de création : 14/10/2018 
+Responsables: FENEK OUARDA, OUDALI SALIHA
+Version : 1.1.
+Description: 
+	Le joueur proposera un BO que selon lui permettra d’atteindre l’objectif qui lui a été défini par le système.
+Préconditions :
+
+	Lors de UC1, le joueur a choisit l’approche 2 (celle où c’est le système qui lui fixe un objectif, et lui essaiera de proposer un BO permettant de l’atteindre)
+	
+Séquencement nominal:
+	1- le système affiche à l’utilisateur une interface permettant de choisir une unité à produire à l’étape courante et un diagramme représentant le BO en construction.
+	2- le joueur choisit une unité à produire.
+	3- le système ajoute cette construction au BO et au diagramme en proposant de l’annuler.
+	4- le système propose au joueur de terminer son BO ou de continuer sa construction
+	5- le joueur choisit de terminer
+	6- le système propose de corriger le BO ou d’optimiser le BO
+	7- le joueur choisit d’optimiser le BO
+	8-Faire appel à UC3: Trouver BO Optimal
+	9- le système affiche le BO optimisé
+Enchaînements alternatifs:
+	A1: Au point 3, le joueur choisit d’annuler une construction
+		4- le joueur clique sur annuler 
+		5- Le système supprime la construction du BO et du diagramme affiché
+		6- La séquence nominale reprend au point 4 
+
+	A2: Au point 4, le joueur décide de continuer la construction du BO: 
+		5- La séquence nominale reprend au point 1.
+
+	A3: Au point 6, le joueur choisit de corriger le BO
+		7- Le joueur clique sur corriger
+		8- Faire appel à UC5 : Corriger BO 
+
+Enchaînements d’exception:
+	
+	
+Post-conditions:
+	Le système enregistre le BO proposé par le joueur.
+	
